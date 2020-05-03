@@ -7,11 +7,11 @@ h2 {
   color: #eac67a;
 }
 
-h3, a {
+h3 {
   color: #984b43;
 }
 
-h2, h3, p, a {
+h2, h3, p {
    font-family: 'Amaranth', sans-serif;
 }
 
@@ -103,4 +103,40 @@ letter-spacing: 0.8rem;
   font-family: "Londrina Shadow", cursive;
   color: #eac67a;
 
+}
+
+.footer-link {
+  color: #984b43;
+}
+
+
+.btn {
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #EAC67A;
+font-family: 'Amaranth', sans-serif;
+font-size: 15px;
+font-weight: 100;
+padding: 15px;
+background-color: #984B43;
+box-shadow: 1px 1px 20px 0px #000000;
+-webkit-box-shadow: 1px 1px 20px 0px #000000;
+-moz-box-shadow: 1px 1px 20px 0px #000000;
+text-shadow: 1px 1px 20px #000000;
+border: solid #EAC67A 1px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
+  
+.btn:hover {
+background: #EAC67A;
+border: solid #EAC67A 1px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+text-decoration: none;
+color: #984B43;
 }
