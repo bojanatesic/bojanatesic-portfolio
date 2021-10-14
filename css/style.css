@@ -71,13 +71,13 @@ line-height: 2;
   width: 20%;
   position: relative;
   animation-name: example;
-  animation: example 2s step-end;
+  animation: example 3s step-end;
   animation-timing-function: ease-in;
 }
 
 
 @keyframes example {
-  from {right: 500px;}
+  from {right: 200px;}
   to {right: 0px;}
 }
 
