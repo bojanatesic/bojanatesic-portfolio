@@ -57,15 +57,30 @@ h2, h3, p {
 
 .skill-row {
 width: 50%;
-margin: 100px auto 100px auto;
+margin: 100px auto 100px  auto;
 text-align: left;
 line-height: 2;
+
 }
+
+
+
 
 .my-picture {
   border-radius: 50%;
   width: 20%;
+  position: relative;
+  animation-name: example;
+  animation: example 5s step-end;
+  animation-timing-function: ease-in;
 }
+
+
+@keyframes example {
+  from {right: 500px;}
+  to {right: 0px;}
+}
+
 
 .programmer-picture {
   border-radius: 50%;
