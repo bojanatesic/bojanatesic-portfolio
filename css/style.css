@@ -77,7 +77,7 @@ line-height: 2;
 
 
 @keyframes example {
-  from {right: 200px;}
+  from {right: 400px;}
   to {right: 0px;}
 }
 
